@@ -1,0 +1,39 @@
+package com.class_object;
+
+import java.util.Scanner;
+
+public class Scaner {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); 
+		 System.out.print("Enter:");
+		 	int a = 10;
+			int b = 20;
+			int c = 50;
+			int d = 100;
+			int e =200;
+
+		 char letter = sc.next().charAt(0); 
+		switch(letter) {
+			case 'a':
+			case 'A':
+				System.out.println("Enter A or a to display"+ a  + "entities per page");
+				break;
+			case 'b':
+			case 'B':
+				System.out.println("You order Ice Tea.");
+				break;
+			case 'c':
+			case 'C':
+				System.out.println("You order Ice Tea.");
+				break;
+			case 'd':
+			case 'D':
+				System.out.println("You order Soup.");
+				break;
+				
+			default: System.out.println("Out of order");
+		}
+
+	}
+}

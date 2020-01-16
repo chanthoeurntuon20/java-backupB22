@@ -1,0 +1,6 @@
+package com.Demo_1;
+
+public class Teacher {
+	String name;
+	int age;
+}

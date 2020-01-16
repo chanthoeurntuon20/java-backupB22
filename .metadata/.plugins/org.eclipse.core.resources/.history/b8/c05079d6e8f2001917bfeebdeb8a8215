@@ -1,0 +1,16 @@
+package homeworks;
+
+public class LastDegit {
+
+	public static void main(String[] args) {
+		String  sentence = "www.google.com/.";
+		String trues = "www.google.com/web2020";
+		String falses = "www.google.com doesn't end with";
+		if(sentence == "/") {
+			System.out.println(trues);
+		}else {
+			System.out.println(falses);
+		}
+	}
+
+}

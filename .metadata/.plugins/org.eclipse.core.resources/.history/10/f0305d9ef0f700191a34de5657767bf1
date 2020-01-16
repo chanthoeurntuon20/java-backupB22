@@ -1,0 +1,23 @@
+package homewok3;
+
+import java.util.Scanner;
+
+public class Answer4 {
+
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in); 
+		 System.out.print("Enter name:");
+		 char letter = sc.next().charAt(0); 
+		switch(letter) {
+			case 'a':
+			case 'A':
+				System.out.println("hi");
+				break;
+			case 'b':
+			case 'B':
+				System.out.println("hello");
+				
+	}
+
+}
+}

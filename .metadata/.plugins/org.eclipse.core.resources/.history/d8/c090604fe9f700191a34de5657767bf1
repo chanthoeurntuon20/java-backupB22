@@ -1,0 +1,19 @@
+package homewok3;
+
+public class Answer3 {
+
+	public static void main(String[] args) {
+		int count = 1;
+		double agrs = 0;
+		int sum = 0;
+		int i = 1;
+		do {
+			if(i % 2 != 0) {
+				sum += count;
+				agrs = sum / count;
+			}
+			System.out.println(agrs);
+		}while(i <= 50);
+
+}
+}

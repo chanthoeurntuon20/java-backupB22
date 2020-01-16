@@ -1,0 +1,27 @@
+package homework5;
+
+import java.util.ArrayList;
+
+public class Student {
+	String firstName;
+	String batch;
+	public Student(String firstName, String batch) {
+		this.firstName = firstName;
+		this.batch = batch;
+		ArrayList<String> bookCart = new ArrayList<String>();
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getBatch() {
+		return batch;
+	}
+	public void setBatch(String batch) {
+		this.batch = batch;
+	}
+	
+	
+}

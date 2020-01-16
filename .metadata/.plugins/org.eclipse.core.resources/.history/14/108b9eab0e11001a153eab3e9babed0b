@@ -1,0 +1,30 @@
+package midterm;
+import java.util.Scanner;
+public class Homework2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String cc = sc.nextLine();
+		 switch(cc)
+	        {
+	            case "IND":
+	                System.out.println(cc+" refers to INDIA");
+	                break;  
+	            case "USA":
+	                System.out.println(cc+" refers to UNITED STATES");
+	                break;
+	            case "JPN":
+	                System.out.println(cc+" refers to JAPAN");
+	                break;
+	            case "NZ":
+	                System.out.println(cc+" refers to NEW ZEALAND");
+	                break;
+	            case "WI":
+	                System.out.println(cc+" refers to WEST INDIES");
+	                break;
+	            default:
+	                System.out.println("Invalid choice");
+	        }
+	}
+
+}

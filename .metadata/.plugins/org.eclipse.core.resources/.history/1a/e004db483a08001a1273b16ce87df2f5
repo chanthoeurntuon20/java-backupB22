@@ -1,0 +1,24 @@
+
+public class Answer2_random {
+
+	public static void main(String[] args) {
+		
+	      int number[] = new int[15];
+	      String index = "";
+	      int count =0;
+	      for (int i = 0; i < number.length; i++) {
+	        int random = (int)(Math.random() * 11 + 0);
+	        number[i] = random;
+	       System.out.print(number[i] + " ");
+	       if(number[i] == 5) {
+	    	   count++;
+	       }
+	       
+	      }
+	      System.out.println(conut);
+//	      System.out.println(" ");
+//	      System.out.print(count);
+//	      System.out.println(index);
+	}
+
+}

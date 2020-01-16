@@ -1,0 +1,19 @@
+
+public class lowest {
+
+	public static void main(String[] args) {
+		String[] employee = {"Doung","Chan","Minea","Mesa","Romdoul","Veha","Por","Kanika"};
+		int[] salary = { 560, 560, 500, 500, 190, 190, 560,700};
+		String lowemployee = employee[0];
+		int lowest = salary[0];
+		for(int i = 0; i < salary.length; i++) {
+			if(lowest > salary[i]) {
+				lowest = salary[i];
+			}		
+		}
+		for(int j = 0 ; j < employee.length; j++) {
+			lowest = salary[j];
+		}
+		System.out.println(lowest );
+}
+}

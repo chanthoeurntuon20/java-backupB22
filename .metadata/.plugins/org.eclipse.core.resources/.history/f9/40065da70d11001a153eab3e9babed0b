@@ -1,0 +1,16 @@
+package midterm;
+import java.util.Scanner;
+public class Homework2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String letter = sc.nextLine();
+		switch(letter) {
+		case "a":
+		case "A":
+			System.out.println("Yor order BayChha.");
+		}
+
+	}
+
+}

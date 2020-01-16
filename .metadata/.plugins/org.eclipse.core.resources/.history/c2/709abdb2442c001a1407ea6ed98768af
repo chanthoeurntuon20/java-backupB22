@@ -1,0 +1,36 @@
+package homework5;
+
+import java.util.ArrayList;
+
+public class Student extends Book{
+	private String firstName;
+	private String batch;
+	public Student(String firstName, String batch) {
+		super(title,author,publishYear);
+		this.firstName = firstName;
+		this.batch = batch;
+		ArrayList<Book> bookCart = new ArrayList<Book>();
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getBatch() {
+		return batch;
+	}
+	public void setBatch(String batch) {
+		this.batch = batch;
+	}
+	// borrowBook
+	//void 
+	// returnBook
+	
+	// getBookCart
+	
+	// toString
+	
+	
+	
+}

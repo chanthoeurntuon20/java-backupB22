@@ -1,0 +1,53 @@
+package midterm;
+import java.util.Scanner;
+public class Homework2 {
+
+	public static void main(String[] args) {
+//		System.out.println("Enter the number");
+//		Scanner sc = new Scanner(System.in);
+//		String letter = sc.nextLine();
+//		switch(letter) {
+//		case "a":
+//		case "A":
+//			System.out.println("Yor order BayChha.");
+//			break;
+//		case "b":
+//		case "B":
+//			System.out.println("You order Ice Tea.");
+//			break;
+//		case "c":
+//		case "C":
+//			System.out.println("You order Soup.");
+//			break;
+//			
+//			default:
+//				System.out.println("Out of order");
+//
+//		}
+		Scanner sc = new Scanner(System.in);
+		String letter = sc.nextLine();
+		int totalEntities = 150;
+		int perPage = 5;
+		switch(letter) {
+		case "a":
+		case "A":
+			System.out.println("Enter A or a to display 10 entities per page");
+		case "b":
+		case "B":
+			System.out.println("Enter B or b to display 20 entities per page");
+		case "c":
+		case "C":
+			System.out.println("Enter C or c to display 50 entities per page");
+		case "d":
+		case "D":
+			System.out.println("Enter D or d to display 100 entities per page");
+
+		case "e":
+		case "E":
+			System.out.println("Enter E or e to display 200 entities per page");
+
+		}
+		
+	}
+
+}

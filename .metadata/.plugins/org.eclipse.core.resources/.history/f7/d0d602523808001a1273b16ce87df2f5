@@ -1,0 +1,21 @@
+import java.util.Random;;
+public class Answer2_random {
+
+	public static void main(String[] args) {
+		Random randomObj = new Random();
+	      int number[] = new int[15];
+	      int countArray[]=new int[10];
+	      int count =0;
+	      for (int i = 0; i < number.length; i++) {
+	        int random = (int)(Math.random() * 11 + 0);
+//	        System.out.print(random);
+	        if(random ==5) {
+	        	count++;
+	        }
+	        System.out.print(random);
+
+	      }
+	     
+	}
+
+}

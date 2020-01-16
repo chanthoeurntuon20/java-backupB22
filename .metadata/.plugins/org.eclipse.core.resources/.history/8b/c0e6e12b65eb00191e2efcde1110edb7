@@ -1,0 +1,13 @@
+package com.Demo_1;
+
+public class Student {
+	String mProvice;
+	 int age;
+	
+	public String getProvince() {
+		return province;
+	}
+	public void setProvince(String province) {
+		this.provice;
+	}
+}

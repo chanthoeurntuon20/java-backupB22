@@ -1,0 +1,16 @@
+import java.util.Random;;
+public class Answer2_random {
+
+	public static void main(String[] args) {
+		Random randomObj = new Random();
+	      int number[] = new int[15];
+	      int countArray[]=new int[10];
+	      for (int i = 1; i < number.length; i++) {
+	        int random = (int)(Math.random() * 10 + 0);
+	        System.out.print(random);
+	        
+	      }
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package lesson1;
+
+public class Animal {
+	public String name;
+	public String breed;
+	public String color;
+	public int age;
+	public void run() {
+		System.out.println("We can run");
+	}
+	public void eat() {
+		System.out.println("We can eat.....");
+	}
+	
+
+}

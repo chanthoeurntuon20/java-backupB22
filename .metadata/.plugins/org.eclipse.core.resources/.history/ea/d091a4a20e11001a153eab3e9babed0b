@@ -1,0 +1,30 @@
+package midterm;
+import java.util.Scanner;
+public class Homework2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String letter = sc.nextLine();
+		switch(letter) {
+		case "a":
+		case "A":
+			System.out.println("Yor order BayChha.");
+			break;
+		case "b":
+		case "B":
+			System.out.println("You order Ice Tea.");
+			break;
+		case "c":
+		case "C":
+			System.out.println("You order Soup.");
+			break;
+	
+			
+			default:
+				System.out.println("Out of order");
+
+		}
+
+	}
+
+}

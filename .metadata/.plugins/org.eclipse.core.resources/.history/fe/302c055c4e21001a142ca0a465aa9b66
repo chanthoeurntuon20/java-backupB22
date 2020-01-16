@@ -1,0 +1,22 @@
+package lesson1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Dog dog1 = new Dog();
+		dog1.breed = "Bakse";
+		dog1.color = "black";
+		dog1.name = "kiki";
+		dog1.run();
+		dog1.wowo();
+		dog1.eat();
+		
+		Cat cat1 = new Cat();
+		cat1.name = "kaka";
+		cat1.mov();
+		cat1.run();
+		cat1.eat();
+
+	}
+
+}
